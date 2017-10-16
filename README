@@ -1,0 +1,19 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Program to demonstrate simple thread. "Inside thread" is written on console once the thread starts execution. Appropriate messages are written on console at each stage.
+
+Example -
+# make
+gcc -o threadDemo program.c -lpthread
+
+# make run
+./threadDemo
+Thread created.
+Inside ThreadProc
+Thread terminated.
+
